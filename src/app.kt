@@ -1,10 +1,14 @@
 fun main() {
-    println("Hello Kotlin")
 
+    for (i in 'b'..'z' step 2) {
+        print(i + " ")
+    }
+
+    println()
 
     for (i in 'a'..'z') {
         if (i.hashCode() % 2 == 0)
-            print(i + " " )
+            print(i + " ")
     }
 
     println()
@@ -14,15 +18,10 @@ fun main() {
         "u", "v", "w", "x", "y", "z"
     )
     for (i in 1..alphabet.count() - 1 step 2) {
-        print(alphabet[i] + " " )
+        print(alphabet[i] + " ")
     }
 
-
-
-
     println()
-
-
 
 
 }
