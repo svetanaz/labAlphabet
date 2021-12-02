@@ -23,5 +23,10 @@ fun main() {
 
     println()
 
+    println(alphabet.slice(1..26 step 2))
+
+
+
+
 
 }
